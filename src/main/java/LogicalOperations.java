@@ -39,9 +39,9 @@ public class LogicalOperations {
         this.var2 = var2;
     }
 
-    /**************
-     * Conunction
-     *************/
+    /****************************
+        * Conjunction method
+     ****************************/
 
     public Boolean Conunctions() {
         if (var1 == null || var2 == null) {
@@ -56,6 +56,9 @@ public class LogicalOperations {
         else return null;
     }
 
+    /*****************************
+        * Disjunction method
+    *****************************/
     public Boolean Disunctions() {
 
         if (var1 == null || var2 == null) {
